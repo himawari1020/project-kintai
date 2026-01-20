@@ -1,0 +1,24 @@
+# タスクリスト: 勤怠管理システム構築
+
+- [ ] プロジェクト初期化
+    - [x] ディレクトリ構造の作成 (`android`, `web`, `firebase`) <!-- id: 0 -->
+    - [ ] `docs/attendance_system` ドキュメント作成 <!-- id: 1 -->
+- [ ] Firebase 設定
+    - [ ] `firebase/firestore.rules` 作成 <!-- id: 2 -->
+    - [ ] `firebase/storage.rules` 作成 <!-- id: 3 -->
+- [ ] Web アプリ (管理者用) 実装
+    - [x] Vite + React (TypeScript) プロジェクト初期化 <!-- id: 4 -->
+    - [x] 依存関係のインストール (MUI, Firebase SDK, Context/Redux) <!-- id: 5 -->
+    - [x] 認証画面 (Login) 実装 <!-- id: 6 -->
+    - [x] ダッシュボード画面実装 <!-- id: 7 -->
+    - [x] 従業員管理機能実装 <!-- id: 8 -->
+    - [x] 勤怠管理機能実装 <!-- id: 9 -->
+- [ ] Android アプリ (従業員用) 実装
+    - [x] Android プロジェクト構造作成 (Gradle, Source sets) <!-- id: 10 -->
+    - [x] 依存関係設定 (Compose, Hilt, Firebase, Coroutines) <!-- id: 11 -->
+    - [x] 認証画面 (Login) 実装 <!-- id: 12 -->
+    - [x] メイン画面 (ステータス表示, 打刻ボタン) 実装 <!-- id: 13 -->
+    - [x] 履歴画面実装 <!-- id: 14 -->
+    - [x] 設定画面実装 <!-- id: 15 -->
+- [ ] CI/CD 設定
+    - [x] GitHub Actions ワークフロー作成 <!-- id: 16 -->
